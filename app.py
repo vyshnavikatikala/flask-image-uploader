@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 from logging import FileHandler,WARNING
 
-app = Flask(__name__,template_folder='template')
+app = Flask(__name__,template_folder='templates')
 
 file_handler=FileHandler('errorlog.txt')
 file_handler.setLevel(WARNING)
