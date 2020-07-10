@@ -1,0 +1,6 @@
+Service Name Status Service type Task Definition Desired tasks v Running tasks v Launch typ... Platform versio...
+
+reverser-backend-service ACTIVE REPLICA reverser-backenda-... 1 1 FARGATE LATEST(1.3.0)
+
+reverser-frontend-service ACTIVE REPLICA reverser-frontend-... 1 1 FARGATE LATEST(1.3.0)
+
